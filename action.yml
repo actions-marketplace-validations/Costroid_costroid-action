@@ -196,7 +196,7 @@ runs:
   using: composite
   steps:
     - id: costroid
-      uses: Costroid/costroid/action@4245162c8002ea79be1c772dc2287d797faab2a7 # v1.0.0-alpha.31
+      uses: Costroid/costroid/action@b1591eb8f1621559a6b46ab87699c9247a8969d7 # v1.0.0-alpha.35
       with:
         stage: ${{ inputs.stage }}
         version: ${{ inputs.version }}
